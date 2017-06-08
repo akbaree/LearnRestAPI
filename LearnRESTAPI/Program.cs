@@ -20,6 +20,7 @@ namespace LearnRESTAPI
                 .UseApplicationInsights()
                 .Build();
 
+
             host.Run();
         }
     }
